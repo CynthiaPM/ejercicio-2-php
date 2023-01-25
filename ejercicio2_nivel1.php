@@ -1,11 +1,11 @@
 <?php 
 
-function escondrijo(){
-    for ($i=2; $i <= 10 ; $i+=2) { 
+function escondrijo($X){
+    for ($i=2; $i <= $X ; $i+=2) { 
         echo $i ."</br>";
     }
 }
 
-echo escondrijo();
+echo escondrijo(20);
 
 ?>
