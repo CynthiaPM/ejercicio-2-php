@@ -7,7 +7,7 @@ function gradoEstudiante($nota){
 
     if ($porcentaje >=60) {
         $grado = "Primera Division";
-    }else if ($porcentaje >= 45 && $porcentcaje <60){
+    }else if ($porcentaje >= 45 && $porcentaje <60){
         $grado = "Segunda División";
     }else if ($porcentaje >=33 && $porcentaje <45){
         $grado = "Tercera División";
